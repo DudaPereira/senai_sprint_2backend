@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "ba336526-8604-4b20-94f8-87e04785fae9",
+		"name": "M_Peoples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Funcionarios.ListarTodos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/funcionarios"
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionario.BuscarId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/funcionarios/24"
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionario.AtualizarIdUrl",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"Maria\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/funcionarios/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionarios.Deletar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5000/api/funcionarios/3"
+			},
+			"response": []
+		},
+		{
+			"name": "Funcionarios.Cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"Maria Eduarda\",\r\n    \"sobrenome\" : \"Pereira\",\r\n    \"dataNasci\": \"1982-04-03\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/funcionarios"
+			},
+			"response": []
+		}
+	]
+}

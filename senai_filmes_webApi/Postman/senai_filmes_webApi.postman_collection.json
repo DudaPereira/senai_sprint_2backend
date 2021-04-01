@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "01b91107-89ed-4c0e-a1ab-b693b9320143",
+		"name": "senai_filmes_webApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generos.ListarTodos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/generos"
+			},
+			"response": []
+		},
+		{
+			"name": "Genero.BuscarId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5000/api/generos/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Generos.AtualizarIdUrl",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Ação\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/generos/34"
+			},
+			"response": []
+		},
+		{
+			"name": "Generos.AtualizarIdCorpo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdGenero\" : 3,\r\n    \"nome\" : \"Drama\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/generos"
+			},
+			"response": []
+		},
+		{
+			"name": "Generos.Deletar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5000/api/generos/4"
+			},
+			"response": []
+		},
+		{
+			"name": "Generos.Cadastrar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Joana D'Arc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/api/generos"
+			},
+			"response": []
+		}
+	]
+}
