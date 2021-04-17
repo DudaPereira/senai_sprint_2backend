@@ -28,3 +28,10 @@ C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\
 C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\obj\Debug\net5.0\senai_filmes_webApi.csproj.CopyComplete
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Maria\Desktop\senai_sprint_2bd\senai_filmes_webApi\senai_filmes_webApi\senai_filmes_webApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
