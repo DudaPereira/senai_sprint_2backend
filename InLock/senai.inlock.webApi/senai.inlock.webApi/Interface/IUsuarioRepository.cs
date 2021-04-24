@@ -14,6 +14,6 @@ namespace senai.inlock.webApi_.Interface
         /// <param name="email"> email do usuario</param>
         /// <param name="senha"> senha do usuario</param>
         /// <returns>UsuarioDomain</returns>
-        UsuarioDomain Login(string email, string senha);
+        UsuarioDomain Login( string email, string senha);
     }
 }

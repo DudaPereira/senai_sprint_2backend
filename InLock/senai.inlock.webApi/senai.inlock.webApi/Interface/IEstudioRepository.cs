@@ -8,9 +8,10 @@ namespace senai.inlock.webApi_.Interface
 {
     interface IEstudioRepository
     {
-        List<EstudioDomain> List();
+        List<EstudioDomain> ListarPorEstudio(int id);
+        List<EstudioDomain> ListarTodos();
         EstudioDomain BuscarPorId(int id);
-        void Atualizar(int id, EstudioDomain estudioAtualizado);
+        void Atualizar( int id, EstudioDomain estudio);
         void Cadastrar(EstudioDomain novoEstudio);
         void Deletar(int id);
     }

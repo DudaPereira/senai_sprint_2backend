@@ -1,10 +1,10 @@
 use inlock_games_tarde
 go
 
-select * from TipoUsuários
+select * from TipoUsuarios
 go
 
-select * from Estúdios
+select * from Estudios
 go
 
 select * from Jogos
@@ -12,18 +12,18 @@ go
 
 --Listar todos os jogos e seus respectivos estúdios;
 select nomeJogo, nomeEstudio from Jogos 
-inner join Estúdios
-on Jogos.idEstudio = Estúdios.idEstudio 
+inner join Estudios
+on Jogos.idEstudio = Estudios.idEstudio 
 go
 
 --Buscar e trazer na lista todos os estúdios com os respectivos jogos.
-select Estúdios.nomeEstudio, nomeJogo from Estúdios
+select Estudios.nomeEstudio, nomeJogo from Estudios
 left join Jogos
-on Estúdios.idEstudio = Jogos.idEstudio
+on Estudios.idEstudio = Jogos.idEstudio
 go
 
 --Buscar um usuário por e-mail e senha (login);
-select idUsuario, email, senha from Usuário
+select idUsuario, email, senha from Usuario
 where email = 'admin@admin.com' and senha = 'admin'
 go
 
@@ -33,6 +33,6 @@ where idJogo = 1
 go
 
 --Buscar um estúdio por idEstudio;
-select idEstudio, nomeEstudio from Estúdios
+select idEstudio, nomeEstudio from Estudios
 where idEstudio = 3
 go

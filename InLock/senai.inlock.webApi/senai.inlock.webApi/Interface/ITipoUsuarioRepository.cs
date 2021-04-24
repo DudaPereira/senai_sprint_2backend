@@ -8,7 +8,7 @@ namespace senai.inlock.webApi_.Interface
 {
     interface ITipoUsuarioRepository
     {
-        List<TipoUsuarioDomain> Listar();
+        List<TipoUsuarioDomain> ListarTodos();
 
         TipoUsuarioDomain BuscarPorId(int id);
     }

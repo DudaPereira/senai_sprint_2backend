@@ -1,18 +1,18 @@
 use inlock_games_tarde
 go
 
-insert into TipoUsuários (titulo)
+insert into TipoUsuarios (titulo)
 values                   ('administrador'),
                          ('cliente')
 go
 
-insert into Usuário (idTipoUsuario, email, senha)
+insert into Usuario (idTipoUsuario, email, senha)
 values              (1, 'admin@admin.com', 'admin'),
                     (2, 'cliente@cliente.com', 'cliente')
 go
 
 
-insert into Estúdios (nomeEstudio)
+insert into Estudios (nomeEstudio)
 values               ('Blizzard'),   
                      ('Rockstar Studios'),
 					 ('Square Enix')
