@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hroads_webApi</name>
+    </assembly>
+    <members>
+        <member name="P:Hroads_webApi.Controllers.ClassesController._classeRepository">
+            <summary>
+            objeto _classeRepository que irá receber todos os métodos definidos na interface
+            </summary>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.ClassesController.Get">
+            <summary>
+            lista todas as classes
+            </summary>
+            <returns> uma lista</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.ClassesController.GetById(System.Int32)">
+            <summary>
+            busca uma classe através do seu id
+            </summary>
+            <param name="id"> id da classe que será buscada</param>
+            <returns> uma classe e um status Code 200 - Ok</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.ClassesController.Post(Hroads_webApi.Domains.Classe)">
+            <summary>
+            cadastra uma nova classe 
+            </summary>
+            <param name="novaClasse"> objeto novaClasse que será cadastrada</param>
+            <returns> um status code 201-Created</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.ClassesController.Put(System.Int32,Hroads_webApi.Domains.Classe)">
+            <summary>
+            atualiza uma classe existente 
+            </summary>
+            <param name="id"> id da classe que será atualizada</param>
+            <param name="classeAtualizada"> objeto classeAtualizada com as novas informações</param>
+            <returns> um status code 204 - No Content</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.ClassesController.Delete(System.Int32)">
+            <summary>
+            deleta uma classe existente 
+            </summary>
+            <param name="id"> id que será deletado</param>
+            <returns> um status code 204 - No Content</returns>
+        </member>
+        <member name="P:Hroads_webApi.Controllers.HabilidadesController._habilidadeRepository">
+            <summary>
+            objeto _habilidadeRepository que irá receber todos os métodos definidos na interface
+            </summary>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.HabilidadesController.Get">
+            <summary>
+            lista todas as habilidades
+            </summary>
+            <returns> uma lista</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.HabilidadesController.GetById(System.Int32)">
+            <summary>
+            busca uma habilidade através do seu id
+            </summary>
+            <param name="id"> id da habilidade que será buscada</param>
+            <returns> uma classe e um status Code 200 - Ok</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.HabilidadesController.Post(Hroads_webApi.Domains.Habilidade)">
+            <summary>
+            cadastra uma nova habilidade
+            </summary>
+            <param name="novaHabilidade"> objeto novaHabilidade que será cadastrada</param>
+            <returns> um status code 201-Created</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.HabilidadesController.Put(System.Int32,Hroads_webApi.Domains.Habilidade)">
+            <summary>
+            atualiza uma habilidade existente 
+            </summary>
+            <param name="id"> id da habilidade que será atualizada</param>
+            <param name="classeAtualizada"> objeto habilidadeAtualizada com as novas informações</param>
+            <returns> um status code 204 - No Content</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.HabilidadesController.Delete(System.Int32)">
+            <summary>
+            deleta uma habilidade existente 
+            </summary>
+            <param name="id"> id que será deletado</param>
+            <returns> um status code 204 - No Content</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.HabilidadesController.GetHabilidade">
+            <summary>
+            Lista todos os estúdios com seus respectivos jogos
+            </summary>
+            <returns>Uma lista de estúdios com os jogos e um status code 200 - Ok</returns>
+        </member>
+        <member name="P:Hroads_webApi.Controllers.PersonagensController._personagemRepository">
+            <summary>
+            objeto _personagemRepository que irá receber todos os métodos definidos na interface
+            </summary>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.PersonagensController.Get">
+            <summary>
+            lista todas os personagem
+            </summary>
+            <returns> uma lista</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.PersonagensController.GetById(System.Int32)">
+            <summary>
+            busca um personagem através do seu id
+            </summary>
+            <param name="id"> id do personagem que será buscada</param>
+            <returns> um personagem e um status Code 200 - Ok</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.PersonagensController.Post(Hroads_webApi.Domains.Personagem)">
+            <summary>
+            cadastra um novo personagem 
+            </summary>
+            <param name="novoPersonagem"> objeto novoPersonagem que será cadastrada</param>
+            <returns> um status code 201-Created</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.PersonagensController.Put(System.Int32,Hroads_webApi.Domains.Personagem)">
+            <summary>
+            atualiza um personagem existente 
+            </summary>
+            <param name="id"> id do personagem que será atualizada</param>
+            <param name="classeAtualizada"> objeto personagemAtualizada com as novas informações</param>
+            <returns> um status code 204 - No Content</returns>
+        </member>
+        <member name="M:Hroads_webApi.Controllers.PersonagensController.Delete(System.Int32)">
+            <summary>
+            deleta um personagem existente 
+            </summary>
+            <param name="id"> id que será deletado</param>
+            <returns> um status code 204 - No Content</returns>
+        </member>
+        <member name="M:Hroads_webApi.Interface.IClasseRepository.ListarTodos">
+            <summary>
+            lista todas as classes
+            </summary>
+            <returns> retorna uma lista</returns>
+        </member>
+        <member name="M:Hroads_webApi.Interface.IClasseRepository.BuscarPorId(System.Int32)">
+            <summary>
+            busca uma classe através do seu id
+            </summary>
+            <param name="id"> id da classe que será buscada </param>
+            <returns> uma classe buscada</returns>
+        </member>
+        <member name="M:Hroads_webApi.Interface.IClasseRepository.Cadastrar(Hroads_webApi.Domains.Classe)">
+            <summary>
+            cadastra uma nova classe
+            </summary>
+            <param name="novaClasse"> objeto chamado novaClasse que será cadastrada</param>
+        </member>
+        <member name="M:Hroads_webApi.Interface.IClasseRepository.Atualizar(System.Int32,Hroads_webApi.Domains.Classe)">
+            <summary>
+            atualiza uma classe existente
+            </summary>
+            <param name="id"> id da classe que será atualizada</param>
+            <param name="classeAtualizada"> objeto classeAtualizada com as novas informações</param>
+        </member>
+        <member name="M:Hroads_webApi.Interface.IClasseRepository.Deletar(System.Int32)">
+            <summary>
+            deleta uma classe existente 
+            </summary>
+            <param name="id"> id da classe que será deletada</param>
+        </member>
+        <member name="M:Hroads_webApi.Interface.IHabilidadeRepository.ListarHabilidade">
+            <summary>
+            lista todos as habilidades com suass respectivas TipoHabilidade
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
